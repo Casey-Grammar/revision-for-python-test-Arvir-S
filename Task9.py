@@ -5,7 +5,11 @@
 
 def main():
     #Write your code here
-    
+    cats_name = input('Cats: ')
+
+    var = cats_name.split() 
+    count = len(var)
+    print(f'You have {count} cats.')
 
 
 
