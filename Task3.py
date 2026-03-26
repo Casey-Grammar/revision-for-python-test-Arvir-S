@@ -3,7 +3,9 @@
 # Write a program that asks the user
 def main():
     #Write your code for input here
-    
+    dog_yr = int(input('Dog years: ')) 
+    human_yr = dog_yr * 7
+    print(f'Human age = {human_yr}')
 
 
     # End of your code for input here
