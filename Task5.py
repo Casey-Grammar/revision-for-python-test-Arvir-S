@@ -6,7 +6,15 @@
 
 def main():
     #Write your code here
-   
+    Italy = int(input('Italy: '))
+    Brazil = int(input('Brazil: '))
+    if Italy > Brazil: 
+        print('Italy wom the match.')
+    elif Brazil > Italy: 
+        print('Brazil won the match') 
+    else: 
+        print('The match was a draw.')
+     
 
 
     # End of your code here
